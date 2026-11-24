@@ -6,9 +6,9 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The joke: a performance review, held by the cat.
+// The joke: the cat starts a podcast about its human.
 const JOKE =
-  "My cat gave me my annual performance review: 'adequate' at opening cans, 'needs improvement' at knowing when to leave him alone.";
+  "My cat started a podcast about me. Episode one: 'He leaves for eight hours, comes home smelling of other cats, and still expects dinner on time.'";
 
 mkdirSync("/output", { recursive: true });
 
